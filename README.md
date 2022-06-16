@@ -1,2 +1,2 @@
 # therockpaperscissor
-rock paper scissor game developed using html css
+A rock paper scissor game developed using html and css
