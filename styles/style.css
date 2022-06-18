@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 20px;
+}
+
+body {
+  font-family: "Staatliches", cursive;
+  height: 100vh;
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(255, 94, 247, 1) 17.8%,
+    rgba(2, 245, 255, 1) 100.2%
+  );
+  color: rgb(red, green, blue);
+  height: 100vh;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+
+.container {
+  min-width: none;
+  width: 50%;
+  margin: 5rem auto;
+  background-color: rgb(111, 210, 233);
+  padding: 2rem;
+  min-height: 30rem;
+}
+
+.title-container {
+  min-height: 10rem;
+  margin-bottom: 1rem;
+}
+
+.main-title {
+  width: 48%;
+  float: left;
+}
+
+.scores {
+  width: 48%;
+  float: right;
+}
+
+.main-title .title {
+  font-size: 2rem;
+}
+
+.scores .score {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.scores .score span {
+  font-weight: 900;
+}
+
+.weapon-container {
+  min-height: 10rem;
+  margin-bottom: 1rem;
+}
+
+.btn-weapon {
+  display: inline-block;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  padding: 1rem;
+  margin: 0.1rem;
+  background-color: rgb(247, 246, 248);
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
